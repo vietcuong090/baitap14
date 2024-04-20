@@ -1,0 +1,40 @@
+{
+  "books": [
+    {
+      "id": "ae73",
+      "title": "cuong",
+      "des": "dessdfv"
+    },
+    {
+      "id": "1382",
+      "title": "thang",
+      "des": "des"
+    },
+    {
+      "id": "25da",
+      "title": "jsdnd",
+      "des": "des"
+    },
+    {
+      "id": "14f7",
+      "title": "uuuu",
+      "des": ""
+    },
+    {
+      "id": "08d0",
+      "title": "hfgsh",
+      "des": "anh tung"
+    },
+    {
+      "id": "de27",
+      "title": "slkèks",
+      "des": ""
+    }
+  ],
+  "categories": [
+    {
+      "name": "Fiction",
+      "id": "1"
+    }
+  ]
+}

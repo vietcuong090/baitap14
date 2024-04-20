@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-create{
+    /* background: radial-gradient( ); */
+    background: linear-gradient(to right, rgb(141, 41, 41), rgb(55, 194, 141));
+    padding: 10px;
+}
+
+input{
+    width: 30%;
+    margin: 0 auto ;
+    margin-bottom: 5px;
+}
+
+.input-test1{
+   text-align: center;
+}
+
+.text-label{
+    text-align: center;
+}

@@ -1,38 +1,104 @@
-.App {
+.container {
+  max-width: 1400px;
+  margin: auto;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.container-app h1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* General Styles */
+.wrapper {
+  /* text-align: center; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  color: #333; /* Dark gray */
+  margin-bottom: 10px; /* Add some space below the title */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center; /* Center align the content */
+}
+
+.container-edit,
+.container-app {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc; /* Light gray */
+  background-color: #f9f9f9; /* Off-white */
+}
+
+/* Form Styles */
+input[type="text"] {
+  /* width: calc(100% - 10px); */
   display: flex;
-  flex-direction: column;
+  height: 25px;
+  border-radius: 4px;
+  padding: 5px;
+  color: #333; /* Dark gray */
+  border: 1px solid #ccc; /* Light gray */
+}
+
+input[type="submit"] {
+  /* height: 30px;
+  width: 30%; */
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #fff; /* White */
+  border: 1px solid #ccc; /* Light gray */
+  cursor: pointer;
+  color: #333; /* Dark gray */
+}
+
+input[type="submit"]:hover {
+  background-color: #f0f0f0; /* Light gray */
+}
+
+/* Book List Styles */
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; 
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.book-list .image {
+  padding: 10px;
+  height: 300px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Delete Button Styles */
+.delete {
+  width: 45%;
+  margin: 5px auto; /* Center the delete buttons horizontally */
+  background-color: #fff; /* White */
+  border: 1px solid #ccc; /* Light gray */
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  color: #333; /* Dark gray */
+}
+
+.delete:hover {
+  background-color: #f0f0f0; /* Light gray */
+}
+
+.container-create h3{
+  text-align: center;
+}
+
+.item h2{
+  margin-top: 15px;
 }
